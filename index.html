@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Иван Гитарист</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Иван Гитарист</h1>
+            <p>Музыка. Эмоции. Живой звук.</p>
+            <button onclick="openModal()">Связаться</button>
+        </div>
+    </header>
+
+    <section class="tracks">
+        <h2>🎵 Последние треки</h2>
+        <div class="track-list">
+            <div class="track-card">Путь домой</div>
+            <div class="track-card">Ночной ритм</div>
+            <div class="track-card">Без слов</div>
+        </div>
+    </section>
+
+    <section class="video">
+        <h2>🎥 Видео выступление</h2>
+        <div class="video-wrapper">
+            <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Иван Гитарист | Все права защищены</p>
+    </footer>
+
+    <!-- Модальное окно -->
+    <div class="modal" id="contactModal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h3>Контакты</h3>
+            <p>Пишите: <a href="mailto:ivan@guitar.com">ivan@guitar.com</a></p>
+            <p>Instagram: @ivan.guitar</p>
+        </div>
+    </div>
+
+    <script src="js/indedx.js"></script>
+</body>
+
+</html>
